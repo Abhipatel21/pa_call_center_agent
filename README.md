@@ -21,8 +21,15 @@ A LangGraph-based chatbot agent simulating a prior authorization call center wor
 ### Command Line
 To visualize the graph:
 ```bash
-python app/main.py
+python -m app.main
 ```
+
+### LangSmith Studio (LangGraph Dev)
+To run the development server and interact via LangSmith Studio (supports streaming):
+```bash
+langgraph dev
+```
+Wait for the output `API: http://127.0.0.1:2024` and then open the provided Studio link.
 
 ### Streamlit App
 To run the interactive chat interface:
