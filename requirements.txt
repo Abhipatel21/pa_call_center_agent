@@ -1,0 +1,9 @@
+langgraph
+langchain
+langchain-openai
+langchain-community
+pydantic
+python-dotenv
+jinja2
+streamlit
+watchdog

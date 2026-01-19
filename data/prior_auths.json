@@ -1,0 +1,29 @@
+[
+  {
+    "patient_id": "111188",
+    "first_name": "Kevin",
+    "last_name": "Terrell",
+    "dob": "1990-01-01",
+    "prior_auths": [
+      {
+        "auth_id": "1234",
+        "procedure_code": "MRI_CHEST",
+        "procedure_description": "MRI scan for primarily chest",
+        "request_date": "2025-01-20",
+        "status": "Approved",
+        "valid_from": "2025-02-01",
+        "valid_to": "2025-04-30",
+        "notes": "Medical Records received: 1/22/2025 and 1/23/2025"
+      },
+      {
+        "auth_id": "5678",
+        "procedure_code": "CT_SCAN",
+        "procedure_description": "CT scan",
+        "request_date": "2025-01-28",
+        "status": "Being reviewed by Registered Nurse",
+        "decision_deadline": "2025-02-10",
+        "notes": "Medical Records received: 1/28/2025 and 2/3/2025"
+      }
+    ]
+  }
+]

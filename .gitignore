@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# LangGraph / LangChain
+.langgraph_api/
+.langchain_api/
+
+# Streamlit
+.streamlit/
