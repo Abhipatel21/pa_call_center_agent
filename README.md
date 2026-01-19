@@ -6,7 +6,7 @@ A LangGraph-based chatbot agent simulating a prior authorization call center wor
 
 1. **Install Dependencies**:
    ```bash
-   pip install -e .
+   uv pip install -r requirements.txt
    ```
    Or install requirements manually.
 
